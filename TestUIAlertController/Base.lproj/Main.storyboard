@@ -26,7 +26,6 @@
                                 </state>
                                 <connections>
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qzh-Zq-ICf"/>
-                                    <segue destination="qm1-IU-ctS" kind="push" id="b8J-50-WF3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,7 +40,7 @@
         <!--View Controller-->
         <scene sceneID="dY9-Ur-Nuk">
             <objects>
-                <viewController id="qm1-IU-ctS" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="nextViewController" id="qm1-IU-ctS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ggH-3y-Ruw"/>
                         <viewControllerLayoutGuide type="bottom" id="THl-SQ-YS4"/>
